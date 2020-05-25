@@ -28,7 +28,6 @@ module.exports = webpackMerge(baseConfig, {
                     comments: false // 去掉注释
                 },
                 compress: {
-                    warnings: false, // 在删除没用到代码时 不输出警告
                     drop_console: true, // 删除console
                     collapse_vars: true, // 把定义一次的变量，直接使用，取消定义变量
                     reduce_vars: true // 合并多次用到的值，定义成变量
