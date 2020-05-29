@@ -65,7 +65,7 @@
         "eqeqeq": "error",
         "radix": "error",
         "quotes": ["error", "single"],
-        "indent": ["warn", 4, {"SwitchCase": 1}],
+        "indent": ["warn", 2, {"SwitchCase": 1}],
         "react/no-array-index-key": "warn",
         "react/no-deprecated": "error",
         "react/no-find-dom-node": "error",
