@@ -1,0 +1,25 @@
+.adjoin-box {
+  padding: 1em;
+  border: 1px solid #ccc;
+
+  span {
+    display: inline-block;
+    width: 4em;
+  }
+
+  button {
+    width: 4em;
+    margin: .5em 1em;
+    cursor: pointer;
+  }
+
+  .ckd {
+    background-color: #218bf2;
+  }
+}
+
+#particle {
+  display: block;
+  background: #0f0f0f;
+  z-index: -1;
+}

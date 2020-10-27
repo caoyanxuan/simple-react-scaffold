@@ -30,6 +30,15 @@ export default class Header extends PureComponent {
                 <NavLink to="/login" activeClassName="nav-active">
                     登录
                 </NavLink>
+                <NavLink to="/adjoin" activeClassName="nav-active">
+                    邻接矩阵
+                </NavLink>
+                <NavLink to="/debounce" activeClassName="nav-active">
+                    防抖、节流
+                </NavLink>
+                <NavLink to="/particle-moving" activeClassName="nav-active">
+                    粒子动画
+                </NavLink>
             </nav>
         );
     }
