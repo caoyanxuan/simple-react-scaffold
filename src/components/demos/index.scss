@@ -23,3 +23,28 @@
   background: #0f0f0f;
   z-index: -1;
 }
+
+
+// SvgPathMoving.jsx
+#svg-path {
+  position: absolute;
+  background-color: #4c5456;
+}
+
+#svg-ball {
+  offset-path: path("M152,224 C296,110.5 426,77 542,124 C715.5,194 925.5,0.5 1109,39");
+  offset-distance: 0%;
+  animation: animation-ball 5s linear alternate infinite;
+  // animation: animation-ball 10s linear;
+  animation-fill-mode: forwards;
+}
+
+@keyframes animation-ball {
+  from {
+    offset-distance: 0%;
+  }
+  to {
+    offset-distance: 100%;
+  }
+}
+

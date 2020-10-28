@@ -37,7 +37,10 @@ export default class Header extends PureComponent {
                     防抖、节流
                 </NavLink>
                 <NavLink to="/particle-moving" activeClassName="nav-active">
-                    粒子动画
+                    canvas-粒子动画
+                </NavLink>
+                <NavLink to="/svg-path-moving" activeClassName="nav-active">
+                    svg-路径动画
                 </NavLink>
             </nav>
         );

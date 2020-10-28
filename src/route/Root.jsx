@@ -10,6 +10,7 @@ import Login from '../components/login/Login';
 import Adjoin from '../components/demos/Adjoin';
 import Debounce from '../components/demos/Debounce';
 import ParticleMoving from '../components/demos/ParticleMoving';
+import SvgPathMoving from '../components/demos/SvgPathMoving';
 
 export default class Root extends PureComponent {
   render() {
@@ -23,6 +24,7 @@ export default class Root extends PureComponent {
             <Route exact path="/adjoin" component={Adjoin} />
             <Route exact path="/debounce" component={Debounce} />
             <Route exact path="/particle-moving" component={ParticleMoving} />
+            <Route exact path="/svg-path-moving" component={SvgPathMoving} />
           </Switch>
         </div>
       </BrowserRouter>
